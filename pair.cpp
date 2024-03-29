@@ -25,8 +25,9 @@ int main(){
     // pair<pair<int, int>, pair<int, int>> nestedPairArray[] = { //array of nested pair 
     //     {{1,2},{3,4}}, {{5,6},{7,8}}
     // };
+
     pair<pair<int, int>, pair<int, int>> nestedPairArray[] = {
-        make_pair(make_pair(1,2),make_pair(3, 4)),
+        make_pair(make_pair(1,2),make_pair(3, 4)), //using make_pair function 
         make_pair(make_pair(5,6),make_pair(7, 8))
     };
     for (int i = 0; i<2; i++){
